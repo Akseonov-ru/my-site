@@ -1,0 +1,22 @@
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.avatar img {
+    margin: 20px 0 0 5px;
+    height: 120%;
+}
