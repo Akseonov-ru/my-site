@@ -90,3 +90,45 @@ body {
     left: -13%;
 
 }
+
+.work {
+    border-radius: 15px;
+    padding: 20px;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.work:hover {
+    background-color: rgba(160, 160, 160, 0.466);
+
+}
+
+.scr-work {
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid black;
+    height: 500px;
+    width: 100%;
+}
+
+.scr-work img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.work .button {
+    background-color: #6600CC;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px; 
+    border-radius: 25px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.work h3 {
+    margin: 0;
+    padding: 0;
+}
